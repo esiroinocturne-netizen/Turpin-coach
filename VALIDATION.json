@@ -1,0 +1,29 @@
+{
+  "syntax": "4 JS files parsed",
+  "checks": {
+    "volume": true,
+    "increase": true,
+    "noFailureIncrease": true,
+    "partialNoIncrease": true,
+    "mixedNoIncrease": true,
+    "twoDrops": true,
+    "collapse": true,
+    "changedLoadNotFatigue": true
+  },
+  "storageSchema": {
+    "roundTrip": true,
+    "rejectBad": true
+  },
+  "browser": [
+    "IndexedDB confirmed",
+    "Series validation confirmed",
+    "Draft restored after reload",
+    "Session completion confirmed",
+    "History table and chart displayed"
+  ],
+  "limitations": [
+    "Physical iPhone installation not tested",
+    "Airplane mode not tested on iPhone"
+  ],
+  "source": "All exercise names and initial load references preserved, except bench press updated to 80 kg"
+}
